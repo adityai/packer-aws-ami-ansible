@@ -9,3 +9,10 @@ Add local environment variables for your AWS Account.
 
 `export AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY>`
 
+## Build
+
+`packer build aws-ami-ansible.packer`
+
+Optionally, build with debug enabled so Packer pauses after every step.
+
+`packer build -debug aws-ami-ansible.packer`
