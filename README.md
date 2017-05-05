@@ -5,6 +5,7 @@ The project has a packer template for creating an AWS AMI, a shell script for in
 ## Pre-requisites
 Add local environment variables for your AWS Account.
 
-`export AWS_ACCESS_KEY_ID=<YOUR_AWS_ACCESS_KEY_ID>` 
-`export AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY>`
+`export AWS_ACCESS_KEY_ID=<YOUR_AWS_ACCESS_KEY_ID> 
+
+export AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY>`
 
